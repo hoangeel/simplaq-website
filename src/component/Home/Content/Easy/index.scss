@@ -1,0 +1,191 @@
+.EasyHome{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  .flexEasy{
+    display: flex;
+    flex-direction: row;
+    .imgEasy{
+      margin: 160px 120px 160px -200px;
+      width: 880.4px;
+      height: 831px;
+      background: url("../../../../assets/img/Illustration.png")  no-repeat ;
+      background-position:-40px 0px;
+    }
+    .contentEasy{
+      margin-top: 337px;
+      .flexContentEasy{
+        max-width: 520px;
+        .titleEasy{
+          margin-bottom: 32px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 56px;
+          line-height: 52px;
+          letter-spacing: -1.4px;
+          color: #17181B;
+          .spanTitle{
+            color: #646572;
+          }
+        }
+        .textEasy{
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: #17181B;
+          margin: 0px;
+        }
+        .Improve{
+          margin-top: 28px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  .EasyHome{
+    .flexEasy{
+      .imgEasy{
+        margin: 140px 58px 140px -100px;
+        width: 638.66px;
+        height: 586px;
+        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
+        background-position:0px 0px;
+        background-size: 700px 670px;
+      }
+      .contentEasy{
+        margin-top: 242px;
+        .flexContentEasy{
+          max-width: 480px;
+          .titleEasy{
+            margin-bottom: 24px;
+            font-size: 44px;
+          }
+          .textEasy{
+            font-size: 16px;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .EasyHome{
+    .flexEasy{
+      .imgEasy{
+        margin: 140px 38px 140px -90px;
+        width: 596.66px;
+        height: 542px;
+        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
+        background-position:10px 0px;
+        background-size: 670px 610px;
+      }
+      .contentEasy{
+        margin-top: 176px;
+        .flexContentEasy{
+          max-width: 397px;
+          .titleEasy{
+            margin-bottom: 24px;
+            font-size: 44px;
+          }
+          .textEasy{
+            font-size: 16px;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .EasyHome{
+    .flexEasy{
+      display: flex;
+      flex-direction: column;
+      .imgEasy{
+        margin: 0px -30px 40px -30px;
+        width: 750px;
+        height: 736px;
+        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
+        background-position:-50px 0px;
+        background-size: 900px 850px;
+      }
+      .contentEasy{
+        margin-top: 0px;
+        .flexContentEasy{
+          max-width: 720px;
+          .titleEasy{
+            margin-bottom: 24px;
+            font-size: 32px;
+          }
+          .textEasy{
+            font-size: 16px;
+            margin: 0px;
+          }
+          .Improve{
+            margin: 28px 0px 100px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px){
+  .EasyHome{
+    .flexEasy{
+      .imgEasy{
+        margin: 0px 0px 40px -20px;
+        width: 588px;
+        height: 587px;
+        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
+        background-position:-40px 0px;
+        background-size: 720px 670px;
+      }
+      .contentEasy{
+        .flexContentEasy{
+          max-width: 568px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .EasyHome{
+    .flexEasy{
+      .imgEasy{
+        margin: 0px 0px 40px -20px;
+        width: 348px;
+        height: 374px;
+        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
+        background-position:-20px 0px;
+        background-size: 420px 430px;
+      }
+      .contentEasy{
+        .flexContentEasy{
+          max-width: 328px;
+          .titleEasy{
+            width: 300px;
+            margin-bottom: 24px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+          }
+          .textEasy{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .Improve{
+            margin: 28px 0px 80px;
+          }
+        }
+      }
+    }
+  }
+}

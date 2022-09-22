@@ -1,0 +1,316 @@
+.sectionHome{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  .flexSection{
+    display: flex;
+    flex-direction: row;
+    .contentSection{
+      margin-right: 16px; 
+      .shoppingMall{
+        .titleSection{
+          margin: 178px 0px 20px;
+          width:677px;;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 72px;
+          letter-spacing: -1.4px;
+          color: #17181B;
+          .spanTitle{
+            background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) ,linear-gradient(0deg, #17181B, #17181B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+        .textSection{
+          margin: 0px;
+          max-width: 492px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          color: #17181B;
+        }
+        .buttonGroupSection{
+          margin: 32px 0px 199px;
+          .buttonGet{
+            width: 163px;
+            padding: 17px 0px 19px;
+            background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+            border-radius: 20px;
+            border: none;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: -0.2px;
+            color: #FFFFFF;
+            &:hover{
+              opacity: 0.7;
+            }
+          }
+          .buttonSee{
+            width: 163px;
+            margin-left: 8px;
+            padding: 17px 0px 19px;
+            background: #F9FAFB;
+            border-radius: 20px;
+            border: none;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: -0.2px;
+            color: #17181B;
+            &:hover{
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+      .review{
+        .groupMess{
+          .mess{
+            img{
+              width: 48px;
+              height: 48px;  
+              margin-right: 28px;
+            }
+          }
+          .mess1{
+            img{
+              width: 48px;
+              height: 48px;  
+              margin-left: -12px;            
+            }
+          }
+        }
+        .textReview{
+          margin:13px 0px 42px 64px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #17181B;
+        }
+      }
+    }
+    .imgSection{
+      width: 907px;
+      height: 840px;
+      background: url("../../../assets/img/RightSide.png") no-repeat;
+      background-position:-90px 0px;
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  .sectionHome{
+    .flexSection{
+      .contentSection{
+        margin-right: 16px; 
+        .shoppingMall{
+          .titleSection{
+            margin: 167px 0px 20px;
+            width:570px;;
+            font-size: 56px;
+            line-height: 64px;
+            font-weight: 700;
+          }
+          .textSection{
+            max-width: 429px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .buttonGroupSection{
+            margin: 32px 0px 132px;
+          }
+        }
+        .review{
+          .textReview{
+            margin:13px 0px 0px 64px;
+            font-size: 16px;
+          }
+        }
+      }
+      .imgSection{
+        margin-right: -50px;
+        margin-left: 0px;
+        width: 600px;
+        height: 692px;
+        background: url("../../../assets/img/RightSide.png") no-repeat;
+        background-position:-90px 0px;
+        background-size:779.62px 752px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px){
+  .sectionHome{
+    .flexSection{
+      .contentSection{
+        margin-right: 0px; 
+        .shoppingMall{
+          .titleSection{
+            margin: 103px 0px 20px;
+            width:370px;;
+            font-size: 56px;
+            line-height: 64px;
+            font-weight: 700;
+          }
+          .textSection{
+            max-width: 429px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .buttonGroupSection{
+            margin: 32px 0px 132px;
+          }
+        }
+        .review{
+          .textReview{
+            margin:13px 0px 0px 64px;
+            font-size: 16px;
+          }
+        }
+      }
+      .imgSection{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 550px;
+        height: 692px;
+        background: url("../../../assets/img/Right Side1024.png") no-repeat;
+        background-position:-60px 0px;
+        background-size:730px 762px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .sectionHome{
+    .flexSection{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .contentSection{
+        margin-right: 0px; 
+        .shoppingMall{
+          width: 577px;
+          .titleSection{
+            margin: 48px 0px 16px;
+            width:577px;
+          }
+          .textSection{
+            max-width: 429px;
+            margin: 0px 80px;
+          }
+          .buttonGroupSection{
+            margin: 32px 0px 51px;
+          }
+        }
+        .review{
+          display: none;
+        }
+      }
+      .imgSection{
+        margin-left: 0px;
+        width: 580px;
+        height: 617px;
+        background: url("../../../assets/img/Right Side768.png") no-repeat;
+        background-position:-60px 0px;
+        background-size:720px 752px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .sectionHome{
+    .flexSection{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .contentSection{
+        margin-right: 0px; 
+        .shoppingMall{
+          width: 500px;
+          .titleSection{
+            margin: 48px 0px 16px;
+            width:500px;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 48px;
+          }
+          .textSection{
+            margin: 0px 30px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .buttonGroupSection{
+            margin: 32px 0px 51px;
+          }
+        }
+        .review{
+          display: none;
+        }
+      }
+      .imgSection{
+        margin-left: 0px;
+        width: 500px;
+        height: 534px;
+        background: url("../../../assets/img/Right Side768.png") no-repeat;
+        background-position:-40px 0px;
+        background-size:600px 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px){
+  .sectionHome{
+    .flexSection{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .contentSection{
+        margin-right: 0px; 
+        .shoppingMall{
+          width: 330px;
+          .titleSection{
+            margin: 48px 50px 16px;
+            width:220px;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+          }
+          .textSection{
+            width: 328px;
+            margin: 0px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+      .imgSection{
+        margin-left: 0px;
+        width: 330px;
+        height: 354px;
+        background: url("../../../assets/img/Right Side360.png") no-repeat;
+        background-position:0px 0px;
+        background-size:340px 354px;
+      }
+    }
+  }
+}

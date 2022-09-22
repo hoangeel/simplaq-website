@@ -1,0 +1,447 @@
+.book{
+  padding: 120px 0px ;
+  .flexBook{
+    display: flex;
+    flex-direction: row;
+    .BookAFreeDemo{
+      .titleBook{
+        max-width: 281px;
+        margin-bottom: 23px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 52px;
+        letter-spacing: -1.4px;
+        color: #17181B;
+        .spanTitleBook{
+          background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+      .textBook{
+        max-width: 515px;
+        margin-bottom: 40px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #646572;
+      }
+      .formEmailPhone{
+        .groupPhone{
+          margin-top: 34px;
+        }
+        .groupEmail{
+          display: flex;
+          flex-direction: row;
+          .iconEmail{
+            margin-right: 12px;
+            width: 48px;
+            height: 48px;
+            background: url("../../../../assets/img/IcnButton.png") no-repeat;
+            background-position:0px 0px;
+            background-size: 48px 48px;
+          }
+          .iconPhone{
+            background: url("../../../../assets/img/IcnButton (1).png") no-repeat;
+          }
+          .contentEmail{
+            display: flex;
+            flex-direction: column;
+            .titleEmail{
+              margin-bottom: 4px;
+              font-family: 'Raleway';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 20px;
+              color: #17181B;
+            }
+            .textEmail{
+              margin-bottom: 0px;
+              font-family: 'Raleway';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 26px;
+              letter-spacing: -0.4px;
+              background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+            }
+          }
+        }
+      }
+    }
+    .formBook{
+      margin-left: 295px;
+      .nameEmail{
+        display: flex;
+        flex-direction: row;
+        .name{
+          width: 386px;
+          background: #FFFFFF;
+          border-radius: 16px;
+          border: #FFFFFF;
+          margin-bottom: 16px;
+          .iconName{
+            width: 20px;
+            height: 20px;
+            background: url("../../../../assets/img/User name.png")  no-repeat ;
+            background-position:0px 0px;
+            border: #FFFFFF;
+            margin: 22px 12px 22px 20px;
+          }
+          .inputName{
+            padding: 0px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            align-items: center;
+            letter-spacing: -0.2px;
+            color: #94959F;  
+            background: #FFFFFF;
+            border: #FFFFFF;  
+            box-shadow: 0 0 0 1px #FFFFFF;        
+          }
+          .iconEmail{
+            background: url("../../../../assets/img/Mail.png")  no-repeat ;
+          }
+          .iconCompany{
+            background: url("../../../../assets/img/User name.png")  no-repeat ;
+          }
+          .iconPhone{
+            background: url("../../../../assets/img/Phone.png")  no-repeat ;
+          }
+        }
+        .email{
+          margin-left: 16px;
+        }
+      }
+      .Message{
+        background: #FFFFFF;
+        border-radius: 16px;
+        border: #FFFFFF;
+        margin-bottom: 16px;
+        .iconMessage{
+          width: 20px;
+          height: 20px;
+          background: url("../../../../assets/img/Message - 3.png")  no-repeat ;
+          background-position:0px 0px;
+          border: #FFFFFF;
+          margin: 22px 12px 0px 20px;
+        }
+        .inputMessage{
+          padding: 0px;
+          height: 134px;
+          box-shadow: 0 0 0 1px #FFFFFF;
+          border: #FFFFFF;
+          margin-top: 22px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.2px;
+          color: #94959F;
+        }
+      }
+      .groupCheckbox{
+        margin-bottom: 8px;
+        .checkbox{
+          .form-check-input{
+            border-radius: 4px;
+            box-shadow: 0 0 0 1px #FFFFFF; 
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            &:hover{
+              cursor: pointer;
+              opacity: 0.7;
+            } 
+            &:checked {
+              background: url("../../../../assets/img/Checkbox.png")  no-repeat ;
+              background-position:0px 0px;
+              background-size:24px 24px;
+              border:none;
+            } 
+          }
+          .form-check-label{
+            padding: 4px 0px;
+            margin-right: 4px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            color: #94959F;
+          }
+        }
+        .spanTextChexk{
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.2px;
+          color: #E83A64;
+          padding: 4px 0px;
+        }
+      }
+      .buttonBookNow{
+        margin-top: 16px;
+        padding: 17px 95px 19px;
+        background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        border-radius: 20px;
+        border: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.2px;
+        color: #FFFFFF;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  .book{
+    padding: 120px 0px ;
+    .flexBook{
+      .BookAFreeDemo{
+        .titleBook{
+          max-width: 225px;
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 48px;
+        }
+        .textBook{
+          max-width: 304px;
+          margin-bottom: 45px;
+          font-size: 14px;
+        }
+      }
+      .formBook{
+        margin-left: 114px;
+        .nameEmail{
+          .name{
+            width: 343px;
+          }
+        }
+        .Message{
+          width: 702px;
+          height: 134px;
+          margin-bottom: 16px;
+        }
+        .buttonBookNow{
+          width: 268px;
+          padding: 17px 0px 19px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .book{
+    .flexBook{
+      .BookAFreeDemo{
+        .textBook{
+          margin-bottom: 45px;
+        }
+      }
+      .formBook{
+        margin-left: 29px;
+        .nameEmail{
+          .name{
+            width: 314px;
+          }
+        }
+        .Message{
+          width: 643px;
+          height: 134px;
+        }
+        .groupCheckbox{
+          margin-bottom: 8px;
+          .checkbox{
+            .form-check-input{
+              width: 24px;
+              height: 24px;
+              margin-right: 15px;
+              &:checked {
+                background-position:0px 0px;
+                background-size:24px 24px;
+              } 
+            }
+            .form-check-label{
+              padding: 4px 0px;
+              margin-right: 4px;
+              font-size: 14px;
+            }
+          }
+          .spanTextChexk{
+            font-size: 14px;
+            padding: 4px 0px;
+          }
+        }
+        .buttonBookNow{
+          width: 268px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .book{
+    .flexBook{
+      flex-direction: column;
+      .BookAFreeDemo{
+        .titleBook{
+          max-width: 721px;
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 48px;
+        }
+        .textBook{
+          max-width: 529px;
+        }
+        .formEmailPhone{
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 66px;
+          .groupPhone{
+            margin: 0px 0px 0px 127px;
+          }
+        }
+      }
+      .formBook{
+        margin-left: 0px;
+        .nameEmail{
+          .name{
+            width: 352px;
+          }
+        }
+        .Message{
+          width: 720px;
+          height: 134px;
+          .inputMessage{
+            height: 112px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px){
+  .book{
+    .flexBook{
+      .BookAFreeDemo{
+        .titleBook{
+          max-width: 568px;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 38px;
+        }
+        .textBook{
+          max-width: 568px;
+        }
+        .formEmailPhone{
+          margin-bottom: 60px;
+          .groupPhone{
+            margin: 0px 0px 0px 48px;
+          }
+        }
+      }
+      .formBook{
+        margin-left: 0px;
+        .nameEmail{
+          .name{
+            width: 276px;
+          }
+        }
+        .Message{
+          width: 568px;
+          height: 134px;
+          .inputMessage{
+            height: 112px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .book{
+    .flexBook{
+      .BookAFreeDemo{
+        .titleBook{
+          max-width: 328px;
+        }
+        .textBook{
+          max-width: 328px;
+        }
+        .formEmailPhone{
+          flex-direction: column;
+          margin-bottom: 42px;
+          .groupPhone{
+            margin: 26px 0px 0px;
+          }
+        }
+      }
+      .formBook{
+        margin-left: 0px;
+        .nameEmail{
+          flex-direction: column;
+          .name{
+            width: 328px;
+            margin: 12px 0px 0px;
+          }
+        }
+        .Message{
+          margin-top: 12px;
+          width: 328px;
+          height: 134px;
+          .inputMessage{
+            height: 112px;
+          }
+        }
+        .groupCheckbox{
+          margin-bottom: 8px;
+          .checkbox{
+            .form-check-label{
+              padding: 4px 0px;
+              margin-right: 4px;
+              max-width: 289px;
+              text-align: left;
+            }
+          }
+          .spanTextChexk{
+            font-size: 14px;
+            padding: 4px 0px;
+          }
+        }
+        .buttonBookNow{
+          width: 328px;
+        }
+      }
+    }
+  }
+}

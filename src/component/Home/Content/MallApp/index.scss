@@ -1,0 +1,291 @@
+.MallApp{
+  margin-bottom: 160px;
+  .titleMallApp{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+    .flexTitleMallApp{
+      max-width: 709px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 52px;
+      text-align: center;
+      letter-spacing: -1.4px;
+      color: #646572;      
+      .spanMallApp{
+        color: #17181B;
+      }
+    }
+  }
+  .flexMallApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .map{
+      display: flex;
+      flex-direction: column;
+      .flexMap{
+        align-items: center;
+        padding: 0px;
+        max-width: 343px;
+        border: none;
+        .imgMap{
+          margin: 0px 33.5px 48px;
+          width: 276px;
+          height: 302px;
+          background: url("../../../../assets/img/Illustration(2).png")  no-repeat ;
+          background-position:0px 0px;
+        }
+        .imgEarn{
+          margin: 0px ;
+          margin-bottom: 48px;
+          width: 315px;
+          height: 302px;
+          background: url("../../../../assets/img/Illustration(3).png")  no-repeat ;
+          background-position:-30px 0px;
+        }
+        .imgQuick{
+          margin: 0px 33.5px 48px;
+          width: 276px;
+          height: 302px;
+          background: url("../../../../assets/img/Illustration(4).png")  no-repeat ;
+          background-position:0px 0px;
+        }
+        .CardTitleMap{
+          margin-bottom: 16px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -0.4px;
+          color: #17181B;
+        }
+        .CardTextMap{
+          margin-bottom: 0px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: 0.1px;
+          color: #646572;
+        }
+      }
+    }
+    .Earn{
+      margin-left: 133.5px;
+    }
+  }
+  .buttonMallApp{
+    display: flex;
+    justify-content: center;
+    .TalkMallApp{
+      margin-top: 49px;
+      padding: 17px 56px 19px;
+      background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      border-radius: 20px;
+      border: none;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: -0.2px;
+      color: #FFFFFF;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  .MallApp{
+    margin-bottom:140px;
+    .titleMallApp{
+      margin-bottom: 72px;
+      .flexTitleMallApp{
+        max-width: 552px;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 48px;      
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .MallApp{
+    .flexMallApp{
+      .map{
+        .flexMap{
+          padding: 0px;
+          max-width: 285px;
+          .imgMap{
+            margin: 0px 33.5px 48px;
+            width: 237.62px;
+            height: 260px;
+            background-position:0px 0px;
+            background-size: 270px 260px;
+          }
+          .imgEarn{
+            width: 271.19px;
+            height: 260px;
+            background-position:0px 0px;
+            background-size: 290px 260px;
+          }
+          .imgQuick{
+            margin: 0px 33.5px 48px;
+            width: 237.62px;
+            height: 260px;
+            background-size: 290px 260px;
+          }
+          .CardTitleMap{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+          }
+          .CardTextMap{
+            margin-bottom: 0px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+      .Earn{
+        margin-left: 60.5px;
+      }
+    }
+    .buttonMallApp{
+      .TalkMallApp{
+        width: 122.75px;
+        margin-top: 49px;
+        padding: 17px 0px 19px;
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .MallApp{
+    margin-bottom:100px;
+    .titleMallApp{
+      margin-bottom: 46px;
+      .flexTitleMallApp{
+        max-width: 440px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;      
+      }
+    }
+    .flexMallApp{
+      display: flex;
+      flex-direction: column;
+      margin-left: 240px;
+      .map{
+        .flexMap{
+          margin: 0px 100px;
+          max-width: 568px;
+          .imgMap{
+            margin: 0px 33.5px 24px;
+            width: 331.15px;
+            height: 362px;
+            background-size:380px 362px;
+          }
+          .imgEarn{
+            margin-bottom: 24px;
+            width: 377.94px;
+            height: 362px;
+            background-position:-30px 0px;
+            background-size:450px 360px;
+          }
+          .imgQuick{
+            margin: 0px 33.5px 24px;
+            width: 331.15px;
+            height: 362px;
+            background-size:380px 362px;
+          }
+          .CardTitleMap{
+            margin-bottom: 12px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+          }
+          .CardTextMap{
+            margin-bottom: 0px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+      .Earn{
+        margin-left: 0px;
+      }
+    }
+    .buttonMallApp{
+      .TalkMallApp{
+        width: 328px;
+      }
+    }
+  }
+}
+@media (max-width: 600px){
+  .MallApp{
+    .flexMallApp{
+      margin-left: 445px;
+    }
+  }
+}
+@media (max-width: 500px){
+  .MallApp{
+    margin-bottom:80px;
+    .titleMallApp{
+      margin-bottom: 44px;
+      .flexTitleMallApp{
+        max-width: 328px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;     
+      }
+    }
+    .flexMallApp{
+      margin-left: 299px;
+      .map{
+        .flexMap{
+          margin: 0px 30px;
+          max-width: 328px;
+          .imgMap{
+            margin: 0px 33.5px 24px;
+            width: 276px;
+            height: 302px;
+            background-size:310px 300px;
+          }
+          .imgEarn{
+            width: 315px;
+            height: 302px;
+            background-position:-30px 0px;
+            background-size:360px 300px;
+          }
+          .imgQuick{
+            margin: 0px 33.5px 24px;
+            width: 276px;
+            height: 302px;
+            background-size:310px 300px;
+          }
+        }
+      }
+    }
+    .buttonMallApp{
+      .TalkMallApp{
+        width: 328px;
+      }
+    }
+  }
+}
+

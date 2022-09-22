@@ -1,0 +1,413 @@
+.OurSolutions{
+  padding: 0px;
+  .titleOurSolutions{
+    margin-bottom: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 52px;
+    text-align: center;
+    .titleSolutions{
+      background: #E83A64;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .textOurSolutions{
+    display: flex;
+    justify-content: center;
+    .Simplaq{
+      width: 435px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      color: #17181B;
+    }
+  }
+  .flexOurSolutions{
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: row;
+    .leftOurSolutions{
+      margin-top: 164px;
+      padding: 0px 152px 52px;
+      width: 788px;
+      background: #F9FAFB;
+      border-radius: 40px;
+      border: #F9FAFB;
+      .imgLeftOur{
+        width: 434.38px;
+        height: 343.62px;
+        justify-self: center;
+        margin: -124.13px 25px 27.52px;
+      }
+      .groupTextOur{
+        background: #F9FAFB;
+        .Collaborate{
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 38px;
+          text-align: center;
+          letter-spacing: -0.4px;
+          color: #17181B;
+          margin-bottom: 0px;
+          padding-bottom: 24px;
+          .digital{
+            background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;          
+          }
+        }
+        .buttonGet{
+          align-items: center;
+          padding: 17px 0px 19px;
+          width: 254px;
+          background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+          border-radius: 20px;  
+          border:none;
+          margin: 0px 115px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: -0.2px;
+          color: #FFFFFF;
+          &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    .rightOurSolutions{
+      padding: 0px 200px 52px;
+      margin-left: 24px;
+      .groupCardImg{
+        margin: -124.13px 69.5px 27.52px;
+        width: 249.23px;
+        height: 507px;
+        background: url("../../../../assets/img/iPhone13Pro Max.png")  no-repeat ;
+        background-position:0px 0px;
+        .imgNike{
+          width: 225.66px;
+          height: 100px;
+          background: url("../../../../assets/img/Cards-Receipts.png")  no-repeat ;
+          background-position:0px 0px;
+          margin: 89px 0px 0px -205px;
+        }
+        .imgHM{
+          width: 236.94px;
+          height: 105px;
+          background: url("../../../../assets/img/Cards-Receipts (1).png")  no-repeat ;
+          background-position:0px 0px;
+          margin: -35px 0px 0px 150px;
+        }
+      }
+      .groupTextOur{
+        margin-top: -160px;
+        .buttonGet{
+          width: 254px;
+          padding: 17px 0px 19px;
+          margin: 0px 69.5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  .OurSolutions{
+    .titleOurSolutions{
+      margin-bottom: 12px;
+      font-size: 44px;
+    }
+    .textOurSolutions{
+      .Simplaq{
+        width: 372px;
+        font-size: 14px;
+      }
+    }
+    .flexOurSolutions{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 140px;
+      .leftOurSolutions{
+        margin-top: 172px;
+        padding: 0px 98px 52px;
+        width: 540px;
+        .imgLeftOur{
+          width: 434.38px;
+          height: 343.62px;
+          margin: -124.13px -50px 27.52px;
+        }
+        .groupTextOur{
+          .Collaborate{
+            width: 343px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+          }
+          .buttonGet{
+            font-size: 14px;
+            margin: 0px 45px;
+          }
+        }
+      }
+      .rightOurSolutions{
+        margin-left: 45px;
+        padding: 0px 143px 52px;
+        width: 540px;
+        .groupCardImg{
+          margin: -124.13px 0px 27.52px;
+          width: 249.23px;
+          height: 507px;
+          .imgNike{
+            width: 225.66px;
+            height: 100px;
+            margin: 89px 0px 0px -124.78px;
+          }
+          .imgHM{
+            width: 236.94px;
+            height: 105px;
+            margin: -35px 0px 0px 127.25px;
+          }
+        }
+        .groupTextOur{
+          margin-top: -160px;
+          .Mobile{
+            width: 254px;
+          }
+          .buttonGet{
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .OurSolutions{
+    .flexOurSolutions{
+      .leftOurSolutions{
+        padding: 0px 68px 52px;
+        width: 480px;
+      }
+      .rightOurSolutions{
+        margin-left: 16px;
+        padding: 0px 113px 52px;
+        width: 480px;
+        .groupCardImg{
+          margin: -124.13px 0px 27.52px;
+          width: 249.23px;
+          height: 507px;
+          .imgNike{
+            height: 100px;
+            width: 225.65789794921875px;           
+            margin: 89px 0px 0px -94.78px;
+          }
+          .imgHM{
+            height: 105px;
+            width: 236.94078063964844px;
+            margin: -35px 0px 0px 111.25px;
+          }
+        }
+        .groupTextOur{
+          margin-top: -160px;
+          .Mobile{
+            width: 254px;
+          }
+          .buttonGet{
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .OurSolutions{
+    .titleOurSolutions{
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+    }
+    .textOurSolutions{
+      .Simplaq{
+        width: 568px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+    .flexOurSolutions{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 93px;
+      margin-left: 240px;
+      .leftOurSolutions{
+        margin: 164px 24px ;
+        padding: 0px 189px 52px;
+        width: 720px;
+        .imgLeftOur{
+          width: 434.38px;
+          height: 343.62px;
+          margin: -124.13px -50px 27.52px;
+        }
+        .groupTextOur{
+          .Collaborate{
+            width: 343px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+          }
+          .buttonGet{
+            font-size: 14px;
+            margin: 0px 45px;
+          }
+        }
+      }
+      .rightOurSolutions{
+        margin: 0px 24px;
+        padding: 0px 233px 52px;
+        width: 720px;
+        .groupCardImg{
+          margin: -124.13px 0px 27.52px;
+          width: 249.23px;
+          height: 507px;
+          .imgNike{
+            width: 225.66px;
+            height: 100px;
+            margin: 89px 0px 0px -124.78px;
+          }
+          .imgHM{
+            width: 236.94px;
+            height: 105px;
+            margin: -35px 0px 0px 127.25px;
+          }
+        }
+        .groupTextOur{
+          margin-top: -160px;
+          .Mobile{
+            width: 254px;
+          }
+          .buttonGet{
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px){
+  .OurSolutions{
+    .flexOurSolutions{
+      margin-bottom: 100px;
+      margin-left: 535px;
+      .leftOurSolutions{
+        margin: 164px 24px ;
+        padding: 0px 113px 52px;
+        width: 568px;
+        .imgLeftOur{
+          width: 434.38px;
+          height: 343.62px;
+          margin: -124.13px -50px 27.52px;
+        }
+      }
+      .rightOurSolutions{
+        margin: 0px 24px;
+        padding: 0px 153px 52px;
+        width: 568px;
+        .groupCardImg{
+          margin: -124.13px 0px 27.52px;
+          width: 249.23px;
+          height: 507px;
+        }
+        .groupTextOur{
+          margin-top: -160px;
+          .Mobile{
+            width: 254px;
+          }
+          .buttonGet{
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .OurSolutions{
+    .textOurSolutions{
+      .Simplaq{
+        width: 328px;
+      }
+    }
+    .flexOurSolutions{
+      margin-bottom: 80px;
+      margin-left: 299px;
+      .leftOurSolutions{
+        margin: 86px 24px ;
+        padding: 0px 16px 52px;
+        width: 360px;
+        .imgLeftOur{
+          width: 328.15px;
+          height: 259.13px;
+          margin: -46.13px 0px 27.52px;
+        }
+        .groupTextOur{
+          background: #F9FAFB;
+          .Collaborate{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            width: 300px;
+            margin: 0px 10px;
+          }
+          .buttonGet{
+            width: 328px;
+            margin: 0px;
+          }
+        }
+      }
+      .rightOurSolutions{
+        margin: 80px 24px 0px;
+        padding: 0px 16px 52px;
+        width: 360px;
+        .groupCardImg{
+          margin: -124.13px 40px 27.52px;
+          width: 249.23px;
+          height: 507px;
+          .imgNike{
+            height: 100px;
+            width: 225.65789794921875px;                     
+            margin: 89px 0px 0px -40px;
+          }
+          .imgHM{
+            height: 105px;
+            width: 236.94078063964844px;
+            margin: 16px 0px 0px 47.25px;
+          }
+        }
+        .groupTextOur{
+          margin-top: -160px;
+          .Mobile{
+            width: 254px;
+            margin: 0px 35px;
+          }
+          .buttonGet{
+            width: 328px;
+          }
+        }
+      }
+    }
+  }
+}

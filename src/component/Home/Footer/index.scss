@@ -1,0 +1,427 @@
+.footer{
+  .flexFooter{
+    .textFooter{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.2px;
+      color: #FFFFFF;
+      .spanAll{
+        color: #94959F;
+      }
+    }
+    .textBottom{
+      margin-bottom: 32px;
+    }
+    .headerFooter{
+      padding: 32px 0px 24px;
+      border-bottom: #232528 1px solid;
+      margin-bottom: 56px;
+      .GetADemo{
+        margin: 0px 8px 0px 1155px;
+        padding: 13px 0px 15px;
+        width: 152px;
+        border: 1px solid #2E2F31;
+        border-radius: 16px;
+        background: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.2px;
+        color: #FFFFFF;
+      }
+      .let-talk{
+        padding: 13px 0px 15px;
+        width: 152px;
+        background: radial-gradient(93.5% 204.81% at 6.5% 94.37%, #F18C53 0%, #E83A64 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        border-radius: 16px;
+        border: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: -0.2px;
+        color: #FFFFFF;
+      }
+    }
+    .contentFooter{
+      display: flex;
+      flex-direction: row;
+      .colum-1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 310px;
+      }
+      .colum-2{
+        display: flex;
+        flex-direction: row;
+        margin-right: 240px;
+        .colum-2-1{
+          margin-right: 271px;
+        }
+        .colum-2-2{
+          .iconSupport{
+            width: 24px;
+            height: 24px;
+            background: url(../../../assets/img/Messages.png) no-repeat;
+            background-position: 0px;
+            background-size: 24px 24px;
+          }
+          .textColum-2-2{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+            color: #FFFFFF;
+            max-width: 136px;
+            .spanSupport{
+              color: #E83A64;
+            }
+          }
+        }
+      }
+      .colum-3{
+        display: flex;
+        flex-direction: column;
+        .formFooter{
+          .InputGroupFooter{
+            margin: 16px 0px 48px;
+            background: #232528;
+            border-radius: 16px;
+            .imgEmail{
+              width: 20px;
+              height: 20px;
+              margin: 18px 12px 18px 20px;
+            }
+            .emailFooter{
+              padding: 0px;
+              width: 308px;
+              height: 56px;
+              background: #232528;
+              border-radius: 16px;
+              border: #232528;  
+              color: #FFFFFF;  
+              font-family: 'Raleway';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: -0.2px;         
+            }
+            .Subscribe{
+              padding: 17px 0px 19px;
+              width: 148px;
+              background: #FFFFFF;
+              border-radius: 20px;
+              font-family: 'Raleway';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: center;
+              letter-spacing: -0.2px;
+              color: #17181B;
+              border:#FFFFFF;
+            }
+          }
+        }
+        .Follow{
+          .groupFollow{
+            display: flex;
+            flex-direction: row;
+            margin: 16px 0px 56px;
+            .face{
+              width: 48px;
+              height: 48px;
+              background: url("../../../assets/img/IcnButton (4).png") no-repeat;
+              background-position: 0px;
+              background-size: 48px 48px;
+              margin-right: 8px;
+            }
+            .youtube{
+              background: url("../../../assets/img/IcnButton (5).png") no-repeat;
+            }
+            .instagram{
+              background: url("../../../assets/img/IcnButton (6).png") no-repeat;
+            }
+            .team{
+              background: url("../../../assets/img/IcnButton (7).png") no-repeat;
+            }
+          }
+        }
+      }
+    }
+    .footerFooter{
+      margin: 24px 0px 8px;
+      border-top: #232528 1px solid;
+      .Privacy{
+        margin: 0px 32px 16px 1130px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1440px){
+  .footer{
+    .flexFooter{
+      .headerFooter{
+        padding: 32px 0px 24px;
+        margin-bottom: 56px;
+        .GetADemo{
+          margin: 0px 8px 0px 900px;
+        }
+      }
+      .contentFooter{
+        .colum-1{
+          margin-right: 260px;
+        }
+        .colum-2{
+          margin-right: 171px;
+          .colum-2-1{
+            margin-right: 214px;
+          }
+          .colum-2-2{
+            .textColum-2-2{
+              max-width: 136px;
+            }
+          }
+        }
+        .colum-3{
+          .formFooter{
+            .InputGroupFooter{
+              margin: 16px 0px 48px;
+              .emailFooter{
+                width: 232px;
+                height: 56px;
+                font-size: 14px;        
+              }
+            }
+          }
+        }
+      }
+      .footerFooter{
+        margin: 24px 0px 8px;
+        .Privacy{
+          margin: 0px 32px 16px 874px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px){
+  .footer{
+    .flexFooter{
+      .headerFooter{
+        .GetADemo{
+          margin-left: 533px;
+        }
+      }
+      .contentFooter{
+        .colum-1{
+          margin-right: 120px;
+        }
+        .colum-2{
+          margin-right: 84px;
+          .colum-2-1{
+            margin-right: 113px;
+          }
+          .colum-2-2{
+            .textColum-2-2{
+              width: 136px; 
+            }
+          }
+        }
+        .colum-3{
+          .formFooter{
+            .InputGroupFooter{
+              .emailFooter{
+                width: 194px;        
+              }
+            }
+          }
+        }
+      }
+      .footerFooter{
+        margin: 24px 0px 8px;
+        .Privacy{
+          margin-left: 506px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 768px){
+  .footer{
+    .flexFooter{
+      .headerFooter{
+        .GetADemo{
+          margin-left: 277px;
+        }
+      }
+      .contentFooter{
+        flex-direction: column;
+        .colum-1{
+          margin-right: 120px;
+        }
+        .colum-2{
+          margin: -140px 0px 0px 250px;
+          .colum-2-1{
+            margin-right: 195px;
+          }
+          .colum-2-2{
+            .textColum-2-2{
+              width: 136px; 
+            }
+          }
+        }
+        .colum-3{
+          flex-direction: row;
+          margin-top: 80px;
+          .formFooter{
+            margin-right: 102px;
+            .InputGroupFooter{
+              .emailFooter{
+                width: 196px;        
+              }
+            }
+          }
+        }
+      }
+      .footerFooter{
+        margin: 24px 0px 8px;
+        .Privacy{
+          margin-left: 250px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 600px){
+  .footer{
+    .flexFooter{
+      .headerFooter{
+        .GetADemo{
+          margin-left: 125px;
+        }
+      }
+      .contentFooter{
+        .colum-1{
+          margin-right: 0px;
+        }
+        .colum-2{
+          flex-direction: column;
+          margin: -140px 0px 0px 250px;
+          .colum-2-1{
+            margin-right: 0px;
+          }
+          .colum-2-2{
+            margin-top: 15px;
+            .textColum-2-2{
+              width: 136px; 
+            }
+          }
+        }
+        .colum-3{
+          flex-direction: column;
+          margin-top: 56px;
+          .formFooter{
+            margin-right: 0px;
+            .InputGroupFooter{
+              margin-bottom: 32px;
+              .emailFooter{
+                width: 368px;        
+              }
+            }
+          }
+        }
+      }
+      .footerFooter{
+        .Privacy{
+          margin-left: 100px;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 500px){
+  .footer{
+    .flexFooter{
+      .headerFooter{
+        display: flex;
+        flex-direction: column;
+        .logo{
+          margin: 0px 0px 16px 0px;
+        }
+        .GetADemo{
+          margin: 0px 0px 0px -170px;
+        }
+        .let-talk{
+          margin: -50px 0px 0px 170px;
+        }
+      }
+      .contentFooter{
+        .colum-1{
+          margin-right: 0px;
+        }
+        .colum-2{
+          flex-direction: column;
+          margin: -140px 0px 0px 170px;
+          .colum-2-1{
+            margin-right: 0px;
+          }
+          .colum-2-2{
+            margin-top: 15px;
+            .textColum-2-2{
+              width: 136px; 
+            }
+          }
+        }
+        .colum-3{
+          flex-direction: column;
+          margin-top: 56px;
+          .formFooter{
+            .InputGroupFooter{
+              .emailFooter{
+                width: 152px;        
+              }
+              .Subscribe{
+                width: 124px;
+              }
+            }
+          }
+          .Follow{
+            .groupFollow{
+              margin: 0;
+              .face{
+                width: 48px;
+                height: 48px;
+                background-position: 0px;
+                background-size: 48px 48px;
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+      .footerFooter{
+        display: flex;
+        flex-direction: column;
+        .Privacy{
+          margin: 0px 0px 0px -150px;
+        }
+        .Terms{
+          margin: -20px 0px 50px 150px;
+        }
+      }
+    }
+  }
+}

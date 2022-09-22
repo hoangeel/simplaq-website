@@ -1,0 +1,320 @@
+.OurCustomersSays{
+  padding: 0px;
+  justify-content: center;  
+  .titleOurCustomers{
+    max-width: 572px;
+    margin-bottom: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 52px;
+    letter-spacing: -1.4px;
+    color: #646572;
+    .spanOurCustomers{
+      color:#17181B
+    }
+  }
+  .slider{
+    .slick-prev{
+      margin: -245px 0px 0px 1500px;
+      width: 48px;
+      height: 48px;
+      background: url("../../../../assets/img/IcnButton (2).png") no-repeat;
+      background-position: 0px;
+      background-size: 48px 48px;
+    }
+    .slick-next{
+      margin: -245px 20px 0px 0px;
+      width: 48px;
+      height: 48px;
+      background: url("../../../../assets/img/IcnButton (3).png") no-repeat;
+      background-position: 0px;
+      background-size: 48px 48px;
+    }
+    .slick-list{
+      padding: 0px;
+      height: 364px;
+      width: 1600px;
+    }
+    .slider-1{
+      width: 788px;
+    }
+    .slider-2{
+      width: 788px;
+    }
+  }
+  .flexOurCustomers{
+    display: flex;
+    flex-direction: row;
+    .leftOurCustomers{
+      .flexleftOurCustomers{
+        width: 788px;
+        background: #F9FAFB;
+        border-radius: 40px;
+        border: #F9FAFB;
+        padding: 48px 40px 40px;
+        .CardTitleOur{
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 26px;
+          letter-spacing: -0.4px;
+          color: #17181B;
+          margin-bottom: 40px;
+          max-width: 572px;
+        }
+        .CardTextOur{
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          color: #646572;
+          margin-bottom: 40px;
+        }
+        .footerOurCustomers{
+          display: flex;
+          flex-direction: row;
+          .imgMess{
+            margin-right: 16px;
+          }
+          .groupOurCustomersSays{
+            .name{
+              font-family: 'Raleway';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 24px;
+              color: #17181B;
+              margin-bottom: 3px;
+            }
+            .position{
+              font-family: 'Raleway';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: -0.2px;
+              color: #94959F;              
+            }
+          }
+          .groupStar{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            .star{
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+    .rightOurCustomers{
+      margin-left: 24px;
+    }
+  }
+}
+
+@media (max-width: 1440px){
+  .OurCustomersSays{ 
+    margin: 0px 160px;
+    .titleOurCustomers{
+      margin-bottom: 40px;
+      font-size: 44px;
+    }
+    .slider{
+      .slick-prev{
+        margin: -275px 0px 0px 1020px;
+      }
+      .slick-next{
+        margin: -275px 350px 0px 60px;
+      }
+      .slick-list{
+        padding: 0px ;
+        height: 435px;
+        width: 1120px;
+      }
+    }
+    .flexOurCustomers{
+      .leftOurCustomers{
+        .flexleftOurCustomers{
+          width: 548px;
+          padding: 48px 40px 40px;
+          .CardTitleOur{
+            font-size: 20px;
+            margin-bottom: 32px;
+            max-width: 343px;
+          }
+          .CardTextOur{
+            font-size: 14px;
+            margin-bottom: 22px;
+          }
+          .footerOurCustomers{
+            .imgMess{
+              margin-right: 16px;
+            }
+            .groupOurCustomersSays{
+              .name{
+                font-size: 16px;
+              }
+              .position{
+                font-size: 14px;             
+              }
+            }
+            .groupStar{
+              margin-top: 10px;
+              .star{
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .OurCustomersSays{ 
+    margin: 0px 24px;
+    .slider{
+      .slick-prev{
+        margin: -275px 0px 0px 876px;
+      }
+      .slick-next{
+        margin: -275px 80px 0px 60px;
+      }
+      .slick-list{
+        height: 435px;
+        width: 976px;
+      }
+    }
+    .flexOurCustomers{
+      .leftOurCustomers{
+        .flexleftOurCustomers{
+          width: 480px;
+          padding: 48px 40px 40px;
+          .CardTitleOur{
+            font-size: 20px;
+            margin-bottom: 32px;
+            max-width: 343px;
+          }
+          .CardTextOur{
+            font-size: 14px;
+            margin-bottom: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .OurCustomersSays{ 
+    margin: 0px 0px 0px 270px;
+    .slider{
+      .slick-prev{
+        margin: -275px 0px 0px 620px;
+      }
+      .slick-next{
+        margin: -275px 570px 0px 0px;
+      }
+      .slick-list{
+        height: 435px;
+        width: 976px;
+      }
+    }
+    .flexOurCustomers{
+      .leftOurCustomers{
+        .flexleftOurCustomers{
+          width: 480px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px){
+  .OurCustomersSays{ 
+    margin: 0px 0px 0px 570px;
+    .titleOurCustomers{
+      margin-bottom: 45px;
+      font-size: 32px;
+    }
+    .slider{
+      .slick-prev{
+        margin: -290px 0px 0px 480px;
+      }
+      .slick-next{
+        margin: -290px 1150px 0px 0px;
+      }
+      .slick-list{
+        height: 435px;
+        width: 1112px;
+      }
+    }
+    .flexOurCustomers{
+      .leftOurCustomers{
+        .flexleftOurCustomers{
+          width: 548px;
+          .CardTitleOur{
+            margin-bottom: 32px;
+          }
+          .CardTextOur{
+            margin-bottom: 70px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .OurCustomersSays{ 
+    margin: 0px 0px 0px 340px;
+    .titleOurCustomers{
+      max-width: 173px;
+      margin-bottom: 32px;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .slider{
+      .slick-prev{
+        margin: -320px 0px 0px 255px;
+      }
+      .slick-next{
+        margin: -320px 700px 0px 0px;
+      }
+      .slick-list{
+        height: 523px;
+        width: 665px;
+      }
+    }
+    .flexOurCustomers{
+      .leftOurCustomers{
+        .flexleftOurCustomers{
+          width: 328px;
+          .CardTitleOur{
+            margin-bottom: 14px;
+            max-width: 264px;
+          }
+          .CardTextOur{
+            margin-bottom: 22px;
+            max-width: 264px;
+          }
+          .footerOurCustomers{
+            flex-direction: column;
+            .groupOurCustomersSays{
+              width: 168px;
+              margin: -50px 0px 0px 66px;
+            }
+            .groupStar{
+              margin: 16px 85px 0px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

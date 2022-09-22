@@ -1,0 +1,207 @@
+.TheFeaturesHome{
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  .flexTheFeatures{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 160px;
+    justify-content: center;
+    .contentTheFeatures{
+      .flexContentTheFeatures{
+        max-width: 653px;
+        margin: 193px 157px 0px 0px;
+        .titleTheFeatures{
+          margin-bottom: 40px;
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 56px;
+          line-height: 52px;
+          letter-spacing: -1.4px;
+          color: #646572;
+          .spanTheFeatures{
+            color:#17181B
+          }
+        }
+        .listTheFeatures{
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 20px;
+          .iconList{
+            margin-right: 12px;
+            width: 24px;
+            height: 24px;
+            background: url("../../../../assets/img/Right.png") no-repeat ;
+          }
+          .textList{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #17181B;
+          }
+        }
+      }
+    }
+    .imgTheFeatures{
+      background: url("../../../../assets/img/Illustration(1).png") no-repeat;
+      background-position: 0px 0px;
+      width: 790px;
+      height: 790px;
+      .CardTheFeatures{
+        background: url("../../../../assets/img/Cards - Product.png") no-repeat;
+        background-position: 0px 0px;
+        width: 264px;
+        height: 375px;
+        margin: 431px 0px 0px -66px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1440px){
+  .TheFeaturesHome{
+    .flexTheFeatures{
+      margin-bottom: 140px;
+      .contentTheFeatures{
+        .flexContentTheFeatures{
+          max-width: 480px;
+          margin: 82px 93px 0px 0px;
+          .titleTheFeatures{
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 48px;
+          }
+        }
+      }
+      .imgTheFeatures{
+        background-size: 547px 547px;
+        width: 547px;
+        height: 547px;
+        .CardTheFeatures{
+          background-size: 213px 320px;
+          width: 203px;
+          height: 289px;
+          margin: 305px 0px 0px -42px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .TheFeaturesHome{
+    .flexTheFeatures{
+      margin-bottom: 140px;
+      .contentTheFeatures{
+        .flexContentTheFeatures{
+          max-width: 397px;
+          margin: 34px 99px 0px 0px;
+        }
+      }
+      .imgTheFeatures{
+        background-size: 480px 480px;
+        width: 480px;
+        height: 480px;
+        .CardTheFeatures{
+          background-size: 213px 320px;
+          width: 203px;
+          height: 289px;
+          margin: 252px 0px 0px -33px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .TheFeaturesHome{
+    .flexTheFeatures{
+      flex-direction: column;
+      margin-bottom: 182px;
+      .contentTheFeatures{
+        .flexContentTheFeatures{
+          max-width: 720px;
+          margin: 0px ;
+          .titleTheFeatures{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+          }
+          .listTheFeatures{
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .imgTheFeatures{
+        margin-top: 20px;
+        background-size: 720px 720px;
+        width: 720px;
+        height: 720px;
+        .CardTheFeatures{
+          background-size: 234px 332px;
+          width: 234px;
+          height: 332px;
+          margin: 430px 0px 0px -45px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px){
+  .TheFeaturesHome{
+    .flexTheFeatures{
+      margin-bottom: 165px;
+      .contentTheFeatures{
+        .flexContentTheFeatures{
+          max-width: 530px;
+          margin: 0px ;
+        }
+      }
+      .imgTheFeatures{
+        background-size: 568px 568px;
+        width: 568px;
+        height: 568px;
+        .CardTheFeatures{
+          background-position: -10px 0px;
+          background-size: 220px 320px;
+          width: 203px;
+          height: 289px;
+          margin: 339px 0px 0px -8px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .TheFeaturesHome{
+    .flexTheFeatures{
+      margin-bottom: 194px;
+      .contentTheFeatures{
+        .flexContentTheFeatures{
+          max-width: 328px;
+          margin: 0px ;
+          .titleTheFeatures{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+          }
+        }
+      }
+      .imgTheFeatures{
+        background-size: 328px 328px;
+        width: 328px;
+        height: 328px;
+        .CardTheFeatures{
+          background-position: -10px 0px;
+          background-size: 203px 289px;
+          width: 203px;
+          height: 289px;
+          margin: 153px 0px 0px -11px;
+        }
+      }
+    }
+  }
+}
