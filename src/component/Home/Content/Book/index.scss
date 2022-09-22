@@ -249,8 +249,11 @@
         }
         .Message{
           width: 702px;
-          height: 112px;
+          height: 134px;
           margin-bottom: 16px;
+          .inputMessage{
+            height: 112px;
+          }
         }
         .buttonBookNow{
           width: 268px;
@@ -274,10 +277,6 @@
           .name{
             width: 314px;
           }
-        }
-        .Message{
-          width: 643px;
-          height: 112px;
         }
         .groupCheckbox{
           margin-bottom: 8px;
