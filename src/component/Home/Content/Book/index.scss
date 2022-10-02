@@ -1,5 +1,6 @@
 .book{
-  padding: 120px 0px ;
+  padding: 120px 160px ;
+  max-width: 1920px;
   .flexBook{
     display: flex;
     flex-direction: row;
@@ -79,7 +80,7 @@
       }
     }
     .formBook{
-      margin-left: 295px;
+      margin-left: auto;
       .nameEmail{
         display: flex;
         flex-direction: row;
@@ -223,9 +224,8 @@
   }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1650px){
   .book{
-    padding: 120px 0px ;
     .flexBook{
       .BookAFreeDemo{
         .titleBook{
@@ -241,7 +241,6 @@
         }
       }
       .formBook{
-        margin-left: 114px;
         .nameEmail{
           .name{
             width: 343px;
@@ -263,8 +262,9 @@
     }
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1300px){
   .book{
+    padding: 120px 24px;
     .flexBook{
       .BookAFreeDemo{
         .textBook{
@@ -272,7 +272,6 @@
         }
       }
       .formBook{
-        margin-left: 29px;
         .nameEmail{
           .name{
             width: 314px;
@@ -316,11 +315,15 @@
     }
   }
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
   .book{
+    padding: 80px 16px;
     .flexBook{
       flex-direction: column;
       .BookAFreeDemo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 720px;
         .titleBook{
           max-width: 721px;
           font-weight: 700;
@@ -340,7 +343,8 @@
         }
       }
       .formBook{
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         .nameEmail{
           .name{
             width: 352px;
@@ -357,10 +361,11 @@
     }
   }
 }
-@media (max-width: 600px){
+@media (max-width: 767px){
   .book{
     .flexBook{
       .BookAFreeDemo{
+        width: 568px;
         .titleBook{
           max-width: 568px;
           font-weight: 700;
@@ -377,15 +382,14 @@
           }
         }
       }
-      .formBook{
-        margin-left: 0px;
+      .formBook{        
         .nameEmail{
           .name{
             width: 276px;
           }
         }
         .Message{
-          width: 568px;
+          max-width: 568px;
           height: 134px;
           .inputMessage{
             height: 112px;
@@ -395,10 +399,11 @@
     }
   }
 }
-@media (max-width: 500px){
+@media (max-width: 590px){
   .book{
     .flexBook{
       .BookAFreeDemo{
+        width: 328px;
         .titleBook{
           max-width: 328px;
         }
@@ -414,7 +419,8 @@
         }
       }
       .formBook{
-        margin-left: 0px;
+        display: block;
+        margin: 0px auto;
         .nameEmail{
           flex-direction: column;
           .name{
@@ -436,7 +442,7 @@
             .form-check-label{
               padding: 4px 0px;
               margin-right: 4px;
-              max-width: 289px;
+              max-width: 280px;
               text-align: left;
             }
           }

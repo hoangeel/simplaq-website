@@ -7,7 +7,7 @@ export default function Book() {
     
 
   return (
-			<Container className='book' fluid>
+			<Container className='book'>
 				<div className='flexBook'>
           <div className='BookAFreeDemo'>
             <h1 className='titleBook'>Book a <span className='spanTitleBook'>Free Demo</span></h1>

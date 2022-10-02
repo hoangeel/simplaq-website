@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.scss"
-import {Container} from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
 
 
 
@@ -15,24 +15,28 @@ export default function TheFeatures() {
   ]
   return (
     <Container fluid  className="TheFeaturesHome" >
-			<div className='flexTheFeatures'>
-        <div className='contentTheFeatures'>
-          <div className='flexContentTheFeatures'>
-            <h1 className='titleTheFeatures'>The features of the portal are <span className='spanTheFeatures'>adapted to the user as much as possible</span></h1>
-            {list.map((index) => {
-              return(
-                <div className='listTheFeatures' key={index}>
-                  <div className='iconList'></div>
-                  <div className='textList'>{index}</div>
-                </div>
-              )
-            })}
+			<Row className='rowTheFeatures'>
+        <Col lg={6}>
+          <div className='contentTheFeatures'>
+            <div className='flexContentTheFeatures'>
+              <h1 className='titleTheFeatures'>The features of the portal are <span className='spanTheFeatures'>adapted to the user as much as possible</span></h1>
+              {list.map((index) => {
+                return(
+                  <div className='listTheFeatures' key={index}>
+                    <div className='iconList'></div>
+                    <div className='textList'>{index}</div>
+                  </div>
+                )
+              })}
+            </div>
           </div>
-        </div>
-        <div className='imgTheFeatures'>
-          <div className='CardTheFeatures'></div>
-        </div>
-      </div>
+        </Col>
+        <Col lg={6}>
+          <div className='imgTheFeatures'>
+            <div className='CardTheFeatures'></div>
+          </div>
+        </Col>
+      </Row>
     </Container>
   )
 }

@@ -1,16 +1,13 @@
 .TheFeaturesHome{
   display: flex;
   justify-content: center;
-  padding: 0px;
-  .flexTheFeatures{
-    display: flex;
-    flex-direction: row;
+  padding: 0px 160px;
+  .rowTheFeatures{
     margin-bottom: 160px;
-    justify-content: center;
     .contentTheFeatures{
       .flexContentTheFeatures{
         max-width: 653px;
-        margin: 193px 157px 0px 0px;
+        margin: 200px 157px 0px 0px;
         .titleTheFeatures{
           margin-bottom: 40px;
           font-family: 'Raleway';
@@ -47,6 +44,7 @@
       }
     }
     .imgTheFeatures{
+      margin: 0px;
       background: url("../../../../assets/img/Illustration(1).png") no-repeat;
       background-position: 0px 0px;
       width: 790px;
@@ -56,16 +54,18 @@
         background-position: 0px 0px;
         width: 264px;
         height: 375px;
-        margin: 431px 0px 0px -66px;
+        position: relative;
+        left: -66px;
+        top: 431px;
       }
     }
   }
 }
 
 
-@media (max-width: 1440px){
+@media (max-width: 1650px){
   .TheFeaturesHome{
-    .flexTheFeatures{
+    .rowTheFeatures{
       margin-bottom: 140px;
       .contentTheFeatures{
         .flexContentTheFeatures{
@@ -86,15 +86,17 @@
           background-size: 213px 320px;
           width: 203px;
           height: 289px;
-          margin: 305px 0px 0px -42px;
+          top: 305px;
+          left: -42px
         }
       }
     }
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1390px){
   .TheFeaturesHome{
-    .flexTheFeatures{
+    padding: 0px 24px;
+    .rowTheFeatures{
       margin-bottom: 140px;
       .contentTheFeatures{
         .flexContentTheFeatures{
@@ -110,15 +112,16 @@
           background-size: 213px 320px;
           width: 203px;
           height: 289px;
-          margin: 252px 0px 0px -33px;
+          top: 252px;
+          left: -33px;
         }
       }
     }
   }
 }
-@media (max-width: 768px){
+@media (max-width: 993px){
   .TheFeaturesHome{
-    .flexTheFeatures{
+    .rowTheFeatures{
       flex-direction: column;
       margin-bottom: 182px;
       .contentTheFeatures{
@@ -144,15 +147,17 @@
           background-size: 234px 332px;
           width: 234px;
           height: 332px;
-          margin: 430px 0px 0px -45px;
+          margin-top: 20px;
+          top: 430px;
+          left: -45px;
         }
       }
     }
   }
 }
-@media (max-width: 600px){
+@media (max-width: 750px){
   .TheFeaturesHome{
-    .flexTheFeatures{
+    .rowTheFeatures{
       margin-bottom: 165px;
       .contentTheFeatures{
         .flexContentTheFeatures{
@@ -169,15 +174,16 @@
           background-size: 220px 320px;
           width: 203px;
           height: 289px;
-          margin: 339px 0px 0px -8px;
+          top: 339px;
+          left: -8px;
         }
       }
     }
   }
 }
-@media (max-width: 500px){
+@media (max-width: 590px){
   .TheFeaturesHome{
-    .flexTheFeatures{
+    .rowTheFeatures{
       margin-bottom: 194px;
       .contentTheFeatures{
         .flexContentTheFeatures{
@@ -199,7 +205,9 @@
           background-size: 203px 289px;
           width: 203px;
           height: 289px;
-          margin: 153px 0px 0px -11px;
+          margin-top: 15px;
+          top: 153px;
+          left: -11px;
         }
       }
     }

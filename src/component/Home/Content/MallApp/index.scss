@@ -1,5 +1,7 @@
 .MallApp{
+  padding: 0px 160px;
   margin-bottom: 160px;
+  margin-top: 160px;
   .titleMallApp{
     display: flex;
     justify-content: center;
@@ -20,17 +22,15 @@
     }
   }
   .flexMallApp{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     .map{
-      display: flex;
-      flex-direction: column;
       .flexMap{
         align-items: center;
         padding: 0px;
         max-width: 343px;
         border: none;
+        display: block;
+        margin: 0px auto;
         .imgMap{
           margin: 0px 33.5px 48px;
           width: 276px;
@@ -79,6 +79,7 @@
     }
     .Earn{
       margin-left: 133.5px;
+      margin: 0px;
     }
   }
   .buttonMallApp{
@@ -105,9 +106,10 @@
   }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1650px){
   .MallApp{
     margin-bottom:140px;
+    margin-top: 100px;
     .titleMallApp{
       margin-bottom: 72px;
       .flexTitleMallApp{
@@ -119,8 +121,9 @@
     }
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1390px){
   .MallApp{
+    padding: 0px 24px;
     .flexMallApp{
       .map{
         .flexMap{
@@ -171,9 +174,10 @@
     }
   }
 }
-@media (max-width: 768px){
+@media (max-width: 992px){
   .MallApp{
     margin-bottom:100px;
+    margin-top: 60px;
     .titleMallApp{
       margin-bottom: 46px;
       .flexTitleMallApp{
@@ -184,28 +188,28 @@
       }
     }
     .flexMallApp{
-      display: flex;
-      flex-direction: column;
-      margin-left: 240px;
       .map{
         .flexMap{
-          margin: 0px 100px;
+          
           max-width: 568px;
           .imgMap{
-            margin: 0px 33.5px 24px;
             width: 331.15px;
             height: 362px;
             background-size:380px 362px;
+            display: block;
+            margin: 0px auto 24px;
           }
           .imgEarn{
-            margin-bottom: 24px;
+            display: block;
+            margin: 0px auto 24px;
             width: 377.94px;
             height: 362px;
             background-position:-30px 0px;
             background-size:450px 360px;
           }
           .imgQuick{
-            margin: 0px 33.5px 24px;
+            display: block;
+            margin: 0px auto 24px;
             width: 331.15px;
             height: 362px;
             background-size:380px 362px;
@@ -224,9 +228,6 @@
           }
         }
       }
-      .Earn{
-        margin-left: 0px;
-      }
     }
     .buttonMallApp{
       .TalkMallApp{
@@ -235,14 +236,7 @@
     }
   }
 }
-@media (max-width: 600px){
-  .MallApp{
-    .flexMallApp{
-      margin-left: 445px;
-    }
-  }
-}
-@media (max-width: 500px){
+@media (max-width: 590px){
   .MallApp{
     margin-bottom:80px;
     .titleMallApp{
@@ -255,13 +249,10 @@
       }
     }
     .flexMallApp{
-      margin-left: 299px;
       .map{
         .flexMap{
-          margin: 0px 30px;
           max-width: 328px;
           .imgMap{
-            margin: 0px 33.5px 24px;
             width: 276px;
             height: 302px;
             background-size:310px 300px;
@@ -273,7 +264,6 @@
             background-size:360px 300px;
           }
           .imgQuick{
-            margin: 0px 33.5px 24px;
             width: 276px;
             height: 302px;
             background-size:310px 300px;

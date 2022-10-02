@@ -1,6 +1,5 @@
 .OurCustomersSays{
-  padding: 0px;
-  justify-content: center; 
+  padding: 0px 160px; 
   margin-bottom: 160px; 
   .titleOurCustomers{
     max-width: 572px;
@@ -18,12 +17,14 @@
   }
   .slider{
     .slick-prev{
-      margin: -245px 0px 0px 1500px;
+      margin: -245px 0px 0px calc( 100% - 100px );
       width: 48px;
       height: 48px;
       background: url("../../../../assets/img/IcnButton (2).png") no-repeat;
       background-position: 0px;
       background-size: 48px 48px;
+      display: flex;
+      justify-content: right;
     }
     .slick-next{
       margin: -245px 20px 0px 0px;
@@ -65,6 +66,11 @@
           color: #17181B;
           margin-bottom: 40px;
           max-width: 572px;
+        }
+        .iconTitle{
+          img{
+            margin-left: 99.7px;
+          }
         }
         .CardTextOur{
           font-family: 'Raleway';
@@ -122,20 +128,24 @@
     }
   }
 }
+.titleCustomers{
+  justify-content: left;
+  margin: 0px;
+}
 
 @media (max-width: 1440px){
   .OurCustomersSays{ 
-    margin: 0px 160px 140px;
+    margin-bottom:  0px;
     .titleOurCustomers{
       margin-bottom: 40px;
       font-size: 44px;
     }
     .slider{
       .slick-prev{
-        margin: -275px 0px 0px 1020px;
+        margin: -290px 0px 0px calc( 100% - 100px );
       }
       .slick-next{
-        margin: -275px 350px 0px 60px;
+        margin: -290px 0px 0px 60px;
       }
       .slick-list{
         padding: 0px ;
@@ -152,6 +162,11 @@
             font-size: 20px;
             margin-bottom: 32px;
             max-width: 343px;
+          }
+          .iconTitle{
+            img{
+              margin-left: 88.7px;
+            }
           }
           .CardTextOur{
             font-size: 14px;
@@ -182,15 +197,23 @@
     }
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1300px){
+  .titleCustomers{
+    .titleOurCustomers{
+      margin-right:600px;
+    }
+  }
   .OurCustomersSays{ 
-    margin: 0px 24px 140px;
+    display: flex;
+    justify-content: center;
+    margin:0px auto ;
+    padding: 0px 24px;
     .slider{
       .slick-prev{
-        margin: -275px 0px 0px 876px;
+        margin: -290px 0px 0px calc( 100% - 100px );
       }
       .slick-next{
-        margin: -275px 80px 0px 60px;
+        margin: -290px 24px 0px 0px;
       }
       .slick-list{
         height: 435px;
@@ -207,6 +230,71 @@
             margin-bottom: 32px;
             max-width: 343px;
           }
+          .iconTitle{
+            img{
+              margin-left: 20.7px;
+            }
+          }
+          .CardTextOur{
+            font-size: 14px;
+            margin-bottom: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1070px){
+  .OurCustomersSays{ 
+    .titleOurCustomers{
+      margin-right:580px;
+    }
+  }
+}
+@media (max-width: 1023px){
+  .OurCustomersSays{ 
+    display:inline;
+    padding: 0px 24px;
+    .titleOurCustomers{
+      margin-right:0px;
+      margin-left: 24px;
+    }
+  }
+  .OurCustomersSays{ 
+    display:inline;
+    padding: 0px 24px;
+    .titleOurCustomers{
+      margin-right:0px;
+      margin-left: 24px;
+    }
+    .slider{
+      margin-left: 24px;
+      .slick-prev{
+        margin: -310px 0px 0px calc( 100% - 124px );
+      }
+      .slick-next{
+        margin: -310px 48px 0px 0px;
+      }
+      .slick-list{
+        height: 435px;
+        width: 976px;
+      }
+    }
+    .flexOurCustomers{
+      .leftOurCustomers{
+        .flexleftOurCustomers{
+          width: 480px;
+          padding: 48px 40px 40px;
+          .CardTitleOur{
+            font-size: 20px;
+            margin-bottom: 32px;
+            max-width: 343px;
+          }
+          .iconTitle{
+            img{
+              margin-left: 20.7px;
+            }
+          }
           .CardTextOur{
             font-size: 14px;
             margin-bottom: 22px;
@@ -218,13 +306,12 @@
 }
 @media (max-width: 768px){
   .OurCustomersSays{ 
-    margin: 0px 0px 100px 270px;
     .slider{
       .slick-prev{
-        margin: -275px 0px 0px 620px;
+        margin: -300px  0px 0px calc( 100% - 100px );
       }
       .slick-next{
-        margin: -275px 570px 0px 0px;
+        margin-top: -300px ;
       }
       .slick-list{
         height: 435px;
@@ -242,17 +329,16 @@
 }
 @media (max-width: 600px){
   .OurCustomersSays{ 
-    margin: 0px 0px 100px 570px;
     .titleOurCustomers{
       margin-bottom: 45px;
       font-size: 32px;
     }
     .slider{
       .slick-prev{
-        margin: -290px 0px 0px 480px;
+        margin: -310px  0px 0px calc( 100% - 100px );
       }
       .slick-next{
-        margin: -290px 1150px 0px 0px;
+        margin-top: -310px ;
       }
       .slick-list{
         height: 435px;
@@ -263,6 +349,11 @@
       .leftOurCustomers{
         .flexleftOurCustomers{
           width: 548px;
+          .iconTitle{
+            img{
+              margin-left: 88.7px;
+            }
+          }
           .CardTitleOur{
             margin-bottom: 32px;
           }
@@ -274,21 +365,25 @@
     }
   }
 }
-@media (max-width: 500px){
+@media (max-width: 590px){
   .OurCustomersSays{ 
-    margin: 0px 0px 80px 340px;
+    .titleCustomers{
+      margin: 0px;
+    }
     .titleOurCustomers{
       max-width: 173px;
-      margin-bottom: 32px;
+      margin-bottom: 12px;
       font-size: 24px;
       line-height: 28px;
+      margin-left: 16px;
     }
     .slider{
+      margin-left: 16px;
       .slick-prev{
-        margin: -320px 0px 0px 255px;
+        margin: -320px  0px 0px calc( 100% - 110px );
       }
       .slick-next{
-        margin: -320px 700px 0px 0px;
+        margin-top: -320px ;
       }
       .slick-list{
         height: 523px;
@@ -299,6 +394,13 @@
       .leftOurCustomers{
         .flexleftOurCustomers{
           width: 328px;
+          padding: 40px 32px 48px;
+          .iconTitle{
+            img{
+              margin-left: 230px;
+              margin-top: -125px;
+            }
+          }
           .CardTitleOur{
             margin-bottom: 14px;
             max-width: 264px;
@@ -312,9 +414,12 @@
             .groupOurCustomersSays{
               width: 168px;
               margin: -50px 0px 0px 66px;
+              .position{
+                width: 180px;
+              }
             }
             .groupStar{
-              margin: 16px 85px 0px 0px;
+              margin: 16px 100px 0px 0px;
             }
           }
         }

@@ -1,19 +1,38 @@
 .EasyHome{
   display: flex;
   justify-content: center;
-  padding: 0px;
-  .flexEasy{
-    display: flex;
-    flex-direction: row;
+  padding: 200px 160px;
+  .RowEasy{
     .imgEasy{
-      margin: 160px 120px 160px -200px;
-      width: 880.4px;
-      height: 831px;
-      background: url("../../../../assets/img/Illustration.png")  no-repeat ;
-      background-position:-40px 0px;
+      width: 790px;
+      height: 790px;
+      background: url("../../../../assets/img/1.png")  no-repeat ;
+      background-size: 790px 800px;
+      margin: 0px;
+      .ReebokStore{
+        width: 235.77px;
+        height: 64.63px;
+        background: url("../../../../assets/img/Group 105.png")  no-repeat ;
+        background-size: 320px 140px;
+        background-position: -40px -40px;
+        position:relative;
+        left: -54px;
+        top: 200px;
+      }
+      .cardEasy{
+        width: 448.4px;
+        height: 377px;
+        background: url("../../../../assets/img/Chrome.png")  no-repeat ;
+        background-position: -170px -170px;
+        background-size: 740px 700px;
+        position:relative;
+        left: 371px;
+        top: 454px;
+        margin:0px;
+      }
     }
     .contentEasy{
-      margin-top: 337px;
+      margin: 137px 0px 0px 150px;
       .flexContentEasy{
         max-width: 520px;
         .titleEasy{
@@ -46,19 +65,34 @@
   }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1650px){
   .EasyHome{
-    .flexEasy{
+    padding: 140px 160px ;
+    .RowEasy{
       .imgEasy{
-        margin: 140px 58px 140px -100px;
-        width: 638.66px;
-        height: 586px;
-        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
-        background-position:0px 0px;
-        background-size: 700px 670px;
+        width: 540px;
+        height: 540px;
+        background-size: 540px 540px;
+        .ReebokStore{
+          width: 235.77px;
+          height: 64.63px;
+          background-size: 320px 140px;
+          background-position: -40px -40px;
+          left: -54px;
+          top: 100px;
+        }
+        .cardEasy{
+          width: 374.66px;
+          height: 315px;
+          background-position: -140px -140px;
+          background-size: 620px 570px;
+          left: 202px;
+          top: 271px;
+        }
       }
       .contentEasy{
-        margin-top: 242px;
+        margin-top: 102px;
+        margin-left: 76px;
         .flexContentEasy{
           max-width: 480px;
           .titleEasy{
@@ -74,19 +108,33 @@
     }
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1300px){
   .EasyHome{
-    .flexEasy{
+    padding: 140px 24px 203px;
+    .RowEasy{
       .imgEasy{
-        margin: 140px 38px 140px -90px;
-        width: 596.66px;
-        height: 542px;
-        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
-        background-position:10px 0px;
-        background-size: 670px 610px;
+        width: 480px;
+        height: 480px;
+        background-size: 480px 480px;
+        .ReebokStore{
+          width: 179px;
+          height: 54px;
+          background-size: 260px 120px;
+          background-position: -40px -40px;
+          left: -54px;
+          top: 90px;
+        }
+        .cardEasy{
+          width: 374.66px;
+          height: 315px;
+          background-position: -140px -140px;
+          background-size: 620px 570px;
+          left: 160px;
+          top: 227px;
+        }
       }
       .contentEasy{
-        margin-top: 176px;
+        margin-top: 36px;
         .flexContentEasy{
           max-width: 397px;
           .titleEasy{
@@ -103,21 +151,37 @@
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
   .EasyHome{
-    .flexEasy{
-      display: flex;
-      flex-direction: column;
+    padding: 100px 24px 0px;
+    .RowEasy{
       .imgEasy{
-        margin: 0px -30px 40px -30px;
-        width: 750px;
-        height: 736px;
-        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
-        background-position:-50px 0px;
-        background-size: 900px 850px;
+        display: block;
+        margin:0px  auto 56px auto;
+        width: 720px;
+        height: 720px;
+        background-size: 720px 720px;
+        .ReebokStore{
+          width: 235.77px;
+          height: 64.63px;
+          background-size: 320px 140px;
+          background-position: -40px -40px;
+          left: -43px;
+          top: 200px;
+        }
+        .cardEasy{
+          width: 374.66px;
+          height: 315px;
+          background-position: -140px -140px;
+          background-size: 620px 570px;
+          left: 356px;
+          top: 417px;
+        }
       }
       .contentEasy{
-        margin-top: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
         .flexContentEasy{
           max-width: 720px;
           .titleEasy{
@@ -136,16 +200,30 @@
     }
   }
 }
-@media (max-width: 600px){
+@media (max-width: 750px){
   .EasyHome{
-    .flexEasy{
+    padding: 100px 16px;
+    .RowEasy{
       .imgEasy{
-        margin: 0px 0px 40px -20px;
-        width: 588px;
-        height: 587px;
-        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
-        background-position:-40px 0px;
-        background-size: 720px 670px;
+        width: 568px;
+        height: 568px;
+        background-size: 568px 568px;
+        .ReebokStore{
+          width: 235.77px;
+          height: 64.63px;
+          background-size: 320px 140px;
+          background-position: -40px -40px;
+          left: -43px;
+          top: 100px;
+        }
+        .cardEasy{
+          width: 321.14px;
+          height: 270px;
+          background-position: -120px -120px;
+          background-size: 520px 470px;
+          left: 263px;
+          top: 317px;
+        }
       }
       .contentEasy{
         .flexContentEasy{
@@ -155,16 +233,30 @@
     }
   }
 }
-@media (max-width: 500px){
+@media (max-width: 590px){
   .EasyHome{
-    .flexEasy{
+    padding: 80px 0px 0px;
+    .RowEasy{
       .imgEasy{
-        margin: 0px 0px 40px -20px;
-        width: 348px;
-        height: 374px;
-        background: url("../../../../assets/img/Illustration.png")  no-repeat ;
-        background-position:-20px 0px;
-        background-size: 420px 430px;
+        width: 328px;
+        height: 328px;
+        background-size: 328px 328px;
+        .ReebokStore{
+          width: 197px;
+          height: 54px;
+          background-size: 270px 130px;
+          background-position: -40px -40px;
+          left: -22px;
+          top: 0px;
+        }
+        .cardEasy{
+          width: 249.77px;
+          height: 210px;
+          background-position: -90px -90px;
+          background-size: 400px 370px;
+          left: 99px;
+          top: 164px;
+        }
       }
       .contentEasy{
         .flexContentEasy{

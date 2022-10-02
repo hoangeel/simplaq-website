@@ -1,4 +1,5 @@
 .footer{
+  padding: 0px 160px;
   .flexFooter{
     .textFooter{
       font-family: 'Raleway';
@@ -20,7 +21,7 @@
       border-bottom: #232528 1px solid;
       margin-bottom: 56px;
       .GetADemo{
-        margin: 0px 8px 0px 1155px;
+        margin: 0px 8px 0px auto;
         padding: 13px 0px 15px;
         width: 152px;
         border: 1px solid #2E2F31;
@@ -57,12 +58,12 @@
       .colum-1{
         display: flex;
         flex-direction: column;
-        margin-right: 310px;
+        margin-right: auto;
       }
       .colum-2{
         display: flex;
         flex-direction: row;
-        margin-right: 240px;
+        margin-right: auto;
         .colum-2-1{
           margin-right: 271px;
         }
@@ -176,15 +177,13 @@
         padding: 32px 0px 24px;
         margin-bottom: 56px;
         .GetADemo{
-          margin: 0px 8px 0px 900px;
+          margin-left: auto;
         }
       }
       .contentFooter{
         .colum-1{
-          margin-right: 260px;
         }
         .colum-2{
-          margin-right: 171px;
           .colum-2-1{
             margin-right: 214px;
           }
@@ -216,21 +215,17 @@
     }
   }
 }
-
-@media(max-width: 1024px){
+@media(max-width: 1300px){
   .footer{
+    padding: 0px 24px;
     .flexFooter{
       .headerFooter{
         .GetADemo{
-          margin-left: 533px;
+          margin-left: auto;
         }
       }
       .contentFooter{
-        .colum-1{
-          margin-right: 120px;
-        }
         .colum-2{
-          margin-right: 84px;
           .colum-2-1{
             margin-right: 113px;
           }
@@ -259,21 +254,13 @@
     }
   }
 }
-@media(max-width: 768px){
+@media(max-width: 992px){
   .footer{
     .flexFooter{
-      .headerFooter{
-        .GetADemo{
-          margin-left: 277px;
-        }
-      }
       .contentFooter{
         flex-direction: column;
-        .colum-1{
-          margin-right: 120px;
-        }
         .colum-2{
-          margin: -140px 0px 0px 250px;
+          margin: -140px 0px 0px auto;
           .colum-2-1{
             margin-right: 195px;
           }
@@ -305,14 +292,9 @@
     }
   }
 }
-@media(max-width: 600px){
+@media(max-width: 767px){
   .footer{
     .flexFooter{
-      .headerFooter{
-        .GetADemo{
-          margin-left: 125px;
-        }
-      }
       .contentFooter{
         .colum-1{
           margin-right: 0px;
@@ -338,7 +320,7 @@
             .InputGroupFooter{
               margin-bottom: 32px;
               .emailFooter{
-                width: 368px;        
+                width: 300px;        
               }
             }
           }
@@ -352,7 +334,7 @@
     }
   }
 }
-@media(max-width: 500px){
+@media(max-width: 590px){
   .footer{
     .flexFooter{
       .headerFooter{
@@ -369,9 +351,6 @@
         }
       }
       .contentFooter{
-        .colum-1{
-          margin-right: 0px;
-        }
         .colum-2{
           flex-direction: column;
           margin: -140px 0px 0px 170px;
@@ -391,7 +370,7 @@
           .formFooter{
             .InputGroupFooter{
               .emailFooter{
-                width: 152px;        
+                width: 70px;        
               }
               .Subscribe{
                 width: 124px;

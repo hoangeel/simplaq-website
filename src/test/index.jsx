@@ -21,11 +21,16 @@ export default function Login() {
   }
   const navigate = useNavigate();
   return (
-    <Container fluid className='home colorBook'>
+    <div className='home colorBook'>
     <div  className='flexColorBook'>
       <Book/>
     </div>
-  </Container>
+  </div>
+  <div className='home colorFooter'>
+    <div  className='flexColorBook'>
+      <FooterHome/>
+    </div>
+  </div>
 
 
     <Container className='login'>

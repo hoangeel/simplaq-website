@@ -1,5 +1,5 @@
 .OurSolutions{
-  padding: 0px;
+  padding: 0px 160px;
   .titleOurSolutions{
     margin-bottom: 16px;
     font-family: 'Raleway';
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     .Simplaq{
-      width: 435px;
+      max-width: 435px;
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 400;
@@ -29,12 +29,12 @@
       color: #17181B;
     }
   }
-  .flexOurSolutions{
+  .rowOurSolutions{
     margin-bottom: 160px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     .leftOurSolutions{
-      margin-top: 164px;
+      margin: 164px 12px 0px auto;
       padding: 0px 152px 52px;
       width: 788px;
       background: #F9FAFB;
@@ -90,7 +90,7 @@
     }
     .rightOurSolutions{
       padding: 0px 200px 52px;
-      margin-left: 24px;
+      margin: 164px auto 0px 12px;
       .groupCardImg{
         margin: -124.13px 69.5px 27.52px;
         width: 249.23px;
@@ -123,8 +123,7 @@
     }
   }
 }
-
-@media (max-width: 1440px){
+@media (max-width: 1700px){
   .OurSolutions{
     .titleOurSolutions{
       margin-bottom: 12px;
@@ -136,9 +135,7 @@
         font-size: 14px;
       }
     }
-    .flexOurSolutions{
-      display: flex;
-      justify-content: center;
+    .rowOurSolutions{
       margin-bottom: 140px;
       .leftOurSolutions{
         margin-top: 172px;
@@ -194,9 +191,10 @@
     }
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 1300px){
   .OurSolutions{
-    .flexOurSolutions{
+    padding: 0px 24px;
+    .rowOurSolutions{      
       .leftOurSolutions{
         padding: 0px 68px 52px;
         width: 480px;
@@ -233,8 +231,9 @@
     }
   }
 }
-@media (max-width: 768px){
+@media (max-width: 993px){
   .OurSolutions{
+    padding: 0px 24px 93px;
     .titleOurSolutions{
       font-weight: 700;
       font-size: 32px;
@@ -248,13 +247,11 @@
         line-height: 24px;
       }
     }
-    .flexOurSolutions{
-      display: flex;
-      flex-direction: column;
+    .rowOurSolutions{
       margin-bottom: 93px;
-      margin-left: 240px;
       .leftOurSolutions{
-        margin: 164px 24px ;
+        display: block;
+        margin: 164px auto 204px;
         padding: 0px 189px 52px;
         width: 720px;
         .imgLeftOur{
@@ -276,25 +273,35 @@
         }
       }
       .rightOurSolutions{
-        margin: 0px 24px;
+        display: block;
+        margin: 0px auto ;
         padding: 0px 233px 52px;
         width: 720px;
+        height: 435px;
         .groupCardImg{
+          position: relative;
+          top: -130px;
           margin: -124.13px 0px 27.52px;
           width: 249.23px;
           height: 507px;
           .imgNike{
-            width: 225.66px;
             height: 100px;
-            margin: 89px 0px 0px -124.78px;
+            width: 225.65789794921875px;           
+            position: relative;
+            top:81px;
+            left: -24.78px;
           }
           .imgHM{
-            width: 236.94px;
             height: 105px;
-            margin: -35px 0px 0px 127.25px;
+            width: 236.94078063964844px;
+            position: relative;
+            top:81px;
+            left:38.34px;
           }
         }
         .groupTextOur{
+          position: relative;
+          top: -130px;
           margin-top: -160px;
           .Mobile{
             width: 254px;
@@ -307,13 +314,13 @@
     }
   }
 }
-@media (max-width: 600px){
+@media (max-width: 750px){
   .OurSolutions{
-    .flexOurSolutions{
+    padding: 0px 16px;
+    .rowOurSolutions{
       margin-bottom: 100px;
-      margin-left: 535px;
       .leftOurSolutions{
-        margin: 164px 24px ;
+        margin: 164px auto 204px;
         padding: 0px 113px 52px;
         width: 568px;
         .imgLeftOur{
@@ -323,13 +330,27 @@
         }
       }
       .rightOurSolutions{
-        margin: 0px 24px;
+        margin: 0px auto;
         padding: 0px 153px 52px;
         width: 568px;
         .groupCardImg{
           margin: -124.13px 0px 27.52px;
           width: 249.23px;
           height: 507px;
+          .imgNike{
+            height: 100px;
+            width: 225.65789794921875px;           
+            position: relative;
+            top:81px;
+            left: -24.78px;
+          }
+          .imgHM{
+            height: 105px;
+            width: 236.94078063964844px;
+            position: relative;
+            top:81px;
+            left:38.34px;
+          }
         }
         .groupTextOur{
           margin-top: -160px;
@@ -344,18 +365,18 @@
     }
   }
 }
-@media (max-width: 500px){
+@media (max-width: 590px){
   .OurSolutions{
+    padding: 0px 0px 100px;
     .textOurSolutions{
       .Simplaq{
         width: 328px;
       }
     }
-    .flexOurSolutions{
+    .rowOurSolutions{
       margin-bottom: 80px;
-      margin-left: 299px;
       .leftOurSolutions{
-        margin: 86px 24px ;
+        margin: 86px auto 200px;
         padding: 0px 16px 52px;
         width: 360px;
         .imgLeftOur{
@@ -379,22 +400,26 @@
         }
       }
       .rightOurSolutions{
-        margin: 80px 24px 0px;
+        margin: 80px auto;
         padding: 0px 16px 52px;
         width: 360px;
         .groupCardImg{
-          margin: -124.13px 40px 27.52px;
+          margin: -124.13px 40.5px 27.52px;
           width: 249.23px;
           height: 507px;
           .imgNike{
             height: 100px;
-            width: 225.65789794921875px;                     
-            margin: 89px 0px 0px -40px;
+            width: 225.65789794921875px;           
+            position: relative;
+            top:81px;
+            left: 40px;
           }
           .imgHM{
             height: 105px;
             width: 236.94078063964844px;
-            margin: 16px 0px 0px 47.25px;
+            position: relative;
+            top:130px;
+            left:-50px;
           }
         }
         .groupTextOur{

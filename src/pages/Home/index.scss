@@ -1,13 +1,23 @@
 .home{
     padding: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     overflow: hidden;
+    max-width: 1920px;
 }
 .colorBook{
     background: #F9FAFB;
+    width: 100%;
 }
 .colorFooter{
     background: #17181B;
+    width: 100%;
+}
+.flexColorBook{
+    padding: 0px;
+    max-width: 1920px;
+}
+button{
+    &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+    }
 }

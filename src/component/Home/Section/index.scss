@@ -1,10 +1,5 @@
 .sectionHome{
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  .flexSection{
-    display: flex;
-    flex-direction: row;
+  padding: 0px 160px;
     .contentSection{
       margin-right: 16px; 
       .shoppingMall{
@@ -100,23 +95,23 @@
           font-size: 16px;
           line-height: 24px;
           color: #17181B;
+          .spanTrusted{
+            color: #646572;
+          }
         }
       }
     }
     .imgSection{
       width: 907px;
       height: 840px;
-      background: url("../../../assets/img/RightSide.png") no-repeat;
-      background-position:-90px 0px;
+      margin-left: -210px;
     }
-  }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1650px){
   .sectionHome{
-    .flexSection{
+    .RowSection{
       .contentSection{
-        margin-right: 16px; 
         .shoppingMall{
           .titleSection{
             margin: 167px 0px 20px;
@@ -142,27 +137,28 @@
         }
       }
       .imgSection{
-        margin-right: -50px;
-        margin-left: 0px;
-        width: 600px;
+        width: 779.62px;
         height: 692px;
-        background: url("../../../assets/img/RightSide.png") no-repeat;
-        background-position:-90px 0px;
-        background-size:779.62px 752px;
+        margin-left: -100px;
+        img{
+          width: 800px;
+          height: 750px;
+        }
       }
     }
   }
 }
-
-@media (max-width: 1024px){
+@media (max-width: 1300px){
   .sectionHome{
-    .flexSection{
+    padding: 0px 24px;
+    margin-bottom: 140px;
+    .RowSection{
       .contentSection{
         margin-right: 0px; 
         .shoppingMall{
           .titleSection{
             margin: 103px 0px 20px;
-            width:370px;;
+            width:370px;
             font-size: 56px;
             line-height: 64px;
             font-weight: 700;
@@ -184,29 +180,26 @@
         }
       }
       .imgSection{
-        margin-right: 0px;
-        margin-left: 0px;
         width: 550px;
         height: 692px;
-        background: url("../../../assets/img/Right Side1024.png") no-repeat;
-        background-position:-60px 0px;
-        background-size:730px 762px;
+        margin-left: -165px;
+        img{
+          width: 730px;
+          height: 762px;
+        }
       }
     }
   }
 }
-
-@media (max-width: 768px){
+@media (max-width: 992px){
   .sectionHome{
+    text-align: center;
     margin-bottom: 100px;
-    .flexSection{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+    .RowSection{
       .contentSection{
-        margin-right: 0px; 
+        display: flex;
+        justify-content: center;
         .shoppingMall{
-          width: 577px;
           .titleSection{
             margin: 48px 0px 16px;
             width:577px;
@@ -224,27 +217,26 @@
         }
       }
       .imgSection{
-        margin-left: 0px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
         width: 580px;
         height: 617px;
-        background: url("../../../assets/img/Right Side768.png") no-repeat;
-        background-position:-60px 0px;
-        background-size:720px 738px;
+        img{
+          margin-left: -130px;
+          width: 720px;
+          height: 738px;
+        }
       }
     }
   }
 }
-
 @media (max-width: 600px){
   .sectionHome{
-    .flexSection{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+    .RowSection{
       .contentSection{
         margin-right: 0px; 
         .shoppingMall{
-          width: 500px;
           .titleSection{
             margin: 48px 0px 16px;
             width:500px;
@@ -262,31 +254,24 @@
             margin: 32px 0px 51px;
           }
         }
-        .review{
-          display: none;
-        }
       }
       .imgSection{
-        margin-left: 0px;
         width: 500px;
         height: 534px;
-        background: url("../../../assets/img/Right Side768.png") no-repeat;
-        background-position:-40px 0px;
-        background-size:600px 500px;
+        img{
+          margin-left: -110px;
+          width: 600px;
+          height: 500px;
+        }
       }
     }
   }
 }
-
 @media (max-width: 500px){
   .sectionHome{
     margin-bottom: 0px;
-    .flexSection{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
+    .RowSection{
       .contentSection{
-        margin-right: 0px; 
         .shoppingMall{
           width: 330px;
           .titleSection{
@@ -306,12 +291,13 @@
         }
       }
       .imgSection{
-        margin-left: 0px;
         width: 330px;
         height: 354px;
-        background: url("../../../assets/img/Right Side360.png") no-repeat;
-        background-position:0px 0px;
-        background-size:340px 354px;
+        img{
+          margin-left: -50px;
+          width: 340px;
+          height: 354px;
+        }
       }
     }
   }

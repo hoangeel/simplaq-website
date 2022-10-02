@@ -19,27 +19,21 @@ export default function Home() {
 
   return (
     <>
-      <Container fluid  className="home" >
-        <div className='flexHome'>
-          <HeaderHome/>
-          <Section/>
-          <Easy/>
-          <OurSolutions/>
-          <TheFeatures/>
-          <OurCustomersSays/>
-          <MallApp/>
-        </div>
+      <Container  className="home" >
+        <HeaderHome/>
+        <Section/>
+        <Easy/>
+        <OurSolutions/>
+        <TheFeatures/>
+        <OurCustomersSays/>
+        <MallApp/>
       </Container>
-      <Container fluid className='home colorBook'>
-        <div  className='flexColorBook'>
+      <div className=' colorBook'>
           <Book/>
-        </div>
-      </Container>
-      <Container fluid className='home colorFooter'>
-        <div  className='flexColorBook'>
+      </div>
+      <div className=' colorFooter'>
           <FooterHome/>
-        </div>
-      </Container>
+      </div>
     </>
   )
 }
